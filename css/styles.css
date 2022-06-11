@@ -169,12 +169,14 @@ button {
     margin-right: 10px;
     width: 16px;
     height: 12px;
+    transition: fill 250ms cubic-bezier(0.4 , 0 , 0.2, 1);
 }
 
 .phone-icon {
     margin-right: 10px;
     width: 10px;
     height: 16px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-item:hover ,
@@ -341,6 +343,7 @@ button {
     background-color: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    
 }
 
 .solutions-button {
@@ -355,6 +358,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 32px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .qualities-list {
@@ -537,14 +541,13 @@ button {
     align-items: center;
     justify-content: center;
     /* margin-top: 16px; */
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .master-soc-link:hover , 
 .master-soc-link:focus {
     background-color: #2196F3;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .master-soc-list {
@@ -556,7 +559,7 @@ button {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
-    /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .master-soc-link:hover .master-soc-icon,
@@ -587,6 +590,7 @@ button {
     height: 60px; /*60px*/
     /* padding: 16px 32px; */
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -600,6 +604,7 @@ button {
     outline: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-right: 30px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .customers-item:last-child {
@@ -615,12 +620,14 @@ button {
 .customers-item:hover .company-icon,
 .customers-item:focus .company-icon {
     fill: var(--accent-text-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
 .company-icon:hover ,
 .company-icon:focus {
     fill: #2196F3;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -663,7 +670,7 @@ button {
 
 .section-btn-item {
     margin-right: 8px;
-
+    transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .section-btn-item:last-child {
@@ -679,12 +686,13 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primery-text-color);
-    background: #F5F4FA;
+    background-color: #F5F4FA;
     border: 1px solid #F5F4FA;
     margin-top: 0;
     margin-bottom: 50px;
     padding: 6px 22px;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .current-button {
@@ -849,6 +857,7 @@ button {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 [href="https://goo.gl/maps/KMvbWjtFumq3UxaW6"] {
@@ -859,6 +868,7 @@ button {
     width: 44px;
     height: 44px;
     margin-right: 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer-soc-item:last-child {
@@ -873,6 +883,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .footer-soc-link:hover,
